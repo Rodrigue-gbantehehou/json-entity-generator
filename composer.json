@@ -1,0 +1,24 @@
+{
+  "name": "gbantehehou/json-entity-generator",
+  "description": "Bundle Symfony pour générer automatiquement les entités, contrôleurs et repositories à partir d’un JSON",
+  "type": "symfony-bundle",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gbantehehou Rodrigue",
+      "email": "rodriguenagnon@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JsonEntityGenerator\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "symfony/framework-bundle": "^5.4 || ^6.0 || ^7.0",
+    "doctrine/orm": "^2.10",
+    "symfony/console": "^5.4 || ^6.0 || ^7.0"
+  }
+}
